@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>SignUp page</title>
+		<link rel="stylesheet" href="log-in.css" />
+	</head>
+	<body>
+		<div class="back">
+			<div class="sing">
+				<h1>Sign up to <span id="ShopName">Tamares</span></h1>
+				<table>
+					<tr>
+						<td> <a href="##"><img src="icon/google.png" width="45px"></a></td>
+						<td> <a href="##"><img src="icon/facebook.png" width="45px"></a></td>
+					</tr>
+				</table>
+				<form action="PhpRegist.php" method="post">
+					<input type="text" placeholder="User Name" name='user' class="user" size="30">
+					<br/><br/>
+					<input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2, 4}$" placeholder="Email" name='mail' class="email"size="30">
+					<br/><br/>
+					<input type="password" placeholder="Password" name='password'class="password" size="30">
+					<br/><br/>
+					<p>I am a Member <a href="index.html" class="Link">Sign in</a></p>
+					<input type="submit" value="Sign up" class="buton" onclick="SingUp();">
+				</form>
+				
+			</div>
+			<div class="backphotoShop">
+				<img src="img/online.jpg" class="imgSignUp" width="100%" height="500px">
+			</div>
+		</div>
+	</body>
+</html>

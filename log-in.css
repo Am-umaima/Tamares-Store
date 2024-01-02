@@ -1,0 +1,110 @@
+@font-face
+{
+	font-family:header;
+	src:url(fonts/hearLike.ttf);
+}
+@font-face
+{
+	font-family:link;
+	src:url(fonts/Oretz.otf);	
+}
+/* @font-face */
+/* { */
+	
+	/* font-family:bodys; */
+	/* src:url(fonts/neucha.regular.ttf); */
+/* } */
+span
+{
+	font-family:header;
+	color:#30afda;
+	text-shadow: 0px 2px 0px black;
+}
+body
+{
+	/* background:linear-gradient(to right,#30afda,white); */
+	/* background-size:100%; */
+	background-color:#e9f3f6;
+}
+.back
+{
+	display:flex;
+	width:90%;
+	height:500px;
+	margin:5%;
+	border:2px solid black;
+	Box-shadow:0px 5px 10px 1px black;
+	background-color:white;
+}
+.backphotoShop
+{
+	 width:55%;
+}
+
+.sing
+{
+	background-color:white;
+	padding:50px;
+	padding-top: 30px;
+	width:40%;
+	text-align:center;
+	border-radius:40px;
+}
+
+input {
+    border: none;
+    border-bottom: 3px solid black;
+	font-size:15px;
+	padding:10px;
+
+}
+h1
+{
+	margin:0px;
+	font-family:header;
+	font-size:xxx-large;
+}
+table
+{
+	margin:auto;
+}
+td
+{
+	padding:10px;
+}
+
+.buton
+{
+	font-weight:bold;
+	border:none;	
+	Box-shadow:0px 2px 5px 1px black;
+	border-radius:10px;
+}
+.password
+{
+	background: url(icon/9af.png) no-repeat;
+	padding-left:40px;
+	position:left;
+	background-size:30px;
+}
+.email
+{
+	background: url(icon/mail.png) no-repeat;
+	padding-left:40px;
+	position:left;
+	background-size:30px;
+}
+.user
+{
+	background: url(icon/username.png) no-repeat;
+	padding-left:40px;
+	position:left;
+	background-size:30px;
+}
+.Link
+{
+	font-family:link;
+	font-size:20px;
+	color:black;
+	/* text-decoration:none; */
+}
